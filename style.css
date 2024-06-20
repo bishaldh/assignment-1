@@ -81,16 +81,16 @@ header ul li a:hover{
     position: relative;
     justify-content: left;
     align-items: left;
-    margin-top: 70px;
+    margin-top: 96px;
     size: 100px;
-    margin-right: 60rem;
+    margin-right: 50rem;
 }
 
 .text-area h1{
-    font-size: 70px;
+    font-size:100px;
 }
 .text-area h3{
-    font-size: 30px;
+    font-size: 50px;
 }
 
 li a .connect{
@@ -134,13 +134,29 @@ header li .connect:hover{
 }
 .paragraph-1{
     justify-content: right;
-    margin-right: 56rem;
-    margin-top: 20px;
+    margin-right:50rem;
+    margin-top: 40px;
 }
 .paragraph-1 p{
     /* font-family: "Roboto", sans-serif; */
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
-    
+    font-size: 22px;
+}
+
+.see-more{
+    display: flex;
+    border:2px solid #c848f5;
+    border-radius: 9px;
+    /* background-color: #c848f5; */
+    padding: 15px;
+    cursor: pointer;
+}
+.see-more a{
+    text-decoration: none;
+
+}
+.right-arrow{
+    width: 20px;
+    margin-left: 20px;
 }
